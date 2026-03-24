@@ -1,0 +1,31 @@
+name: "AI Agent Linter Ecosystem"
+domain: "mshogin.ru"
+
+projects:
+  - name: archlint
+    repo: mshogin/archlint
+    description: "Architecture quality gate. Structural graphs, SOLID violations, cycle detection."
+    docs: true
+
+  - name: promptlint
+    repo: mikeshogin/promptlint
+    description: "Complexity-based model routing. Score prompts, pick the cheapest sufficient model."
+    docs: true
+
+  - name: costlint
+    repo: mikeshogin/costlint
+    description: "Token cost analysis. Cache metrics, A/B testing, optimization hints."
+    docs: true
+
+  - name: seclint
+    repo: mikeshogin/seclint
+    description: "Content safety filter. Age ratings (6+/12+/16+/18+), topic guidance."
+    docs: true
+
+  - name: promptsec
+    repo: mikeshogin/promptsec
+    description: "Security coaching for prompts. Mirror of seclint with prompt-focused naming."
+    docs: false
+
+theme: "linter-docs"
+languages: [ru, en]
